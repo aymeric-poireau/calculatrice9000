@@ -43,7 +43,7 @@ def pourcentage():
         
         per=float(tota)*(100/500)
         
-        global expression
+     
         
         total = str(eval(expression))
         equation.set(total)
