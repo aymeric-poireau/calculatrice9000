@@ -53,8 +53,7 @@ def pourcentage():
 
 def racine_carrée():
     try:
-        x = expression
-        global expression
+        x=expression
         x**(0.5)
         total = str(eval(expression))
         equation.set(total)
